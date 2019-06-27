@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+    
+
+#1.使用Yml文件有层级结构 缩进 
+#2.使用yml文件key,value之间用: 冒号连接
+#3.赋值时:冒号后面必须加空
+---
+spring:
+  profiles: dev
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    
+#为user属性赋值 可以编辑中文
+user:
+  id: 100
+  username: 哥斯拉2
+  age: 2002
+  
+--- #环境分割线
+spring:
+  profiles: prod
+  
+server:
+  port: 8090
+  servlet:
+    context-path: /jt
+    
+user:
+  id: 100
+  username: 皮卡丘
+  age: 200   
+  
