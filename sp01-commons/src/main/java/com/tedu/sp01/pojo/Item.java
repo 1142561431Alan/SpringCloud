@@ -7,8 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
+
 public class Item {
+	//编号
 	private Integer id;
+	//名称
 	private String name;
 	private Integer number;
 }
