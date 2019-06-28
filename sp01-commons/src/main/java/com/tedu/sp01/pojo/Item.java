@@ -17,5 +17,10 @@ public class Item {
 	private Integer number;
 	
 	//111111111111211111111111111111
+<<<<<<< HEAD
 	//3333333333333333333333333333
 }
+=======
+	//222222222222222222222222222
+}
+>>>>>>> branch 'master' of https://github.com/1142561431Alan/SpringCloud.git
